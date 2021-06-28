@@ -1,0 +1,71 @@
+.about {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: 1fr;
+	opacity: 0;
+}
+.team-slider {
+	font-family: Anoxic SC, monospace;
+	color: white;
+	font-size: 60pt;
+	background-color: #000;
+	width: 100%;
+	bottom: 50px;
+	line-height: 60px;
+	@include media-down(mobile){
+		font-size: 30pt;
+	}
+	
+}
+
+.marquee {
+	white-space: nowrap;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	margin-left: -100px;
+	width: 100vw;
+	span {
+		display: inline-block;
+		padding-left: 100%;
+		-webkit-animation: marquee 50s linear infinite;
+		animation: marquee 50s linear infinite;
+	}
+}
+
+@-webkit-keyframes marquee {
+	0% {
+		transform: translate(0, 0);
+	}
+	100% {
+		transform: translate(-100%, 0);
+	}
+}
+@keyframes marquee {
+	0% {
+		transform: translate(0, 0);
+	}
+	100% {
+		transform: translate(-100%, 0);
+	}
+}
+.purple{
+	-webkit-animation: purple 1s ease-in;
+	        animation: purple 1s ease-in;
+}
+@-webkit-keyframes purple {
+	0% {
+		background-color: black;
+	}
+	100% {
+		background-color: purple;
+	}
+}
+@keyframes purple {
+	0% {
+		background-color: black;
+	}
+	100% {
+		background-color: purple;
+	}
+}

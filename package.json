@@ -1,14 +1,24 @@
 {
   "name": "hubhawks",
+  "homepage": "https://hubhawks.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "gsap": "^3.7.0",
+    "locomotive-scroll": "^4.1.1",
+    "node-sass": "^6.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-gsap": "^3.2.1",
+    "react-locomotive-scroll": "^0.1.8",
+    "react-native-text-ticker": "^1.12.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-scroll-trigger": "^0.6.10",
+    "swiper": "^6.7.0",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -34,5 +44,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.14.5",
+    "@babel/preset-react": "^7.14.5"
   }
 }
